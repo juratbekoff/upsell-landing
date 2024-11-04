@@ -1,7 +1,15 @@
 {
   "rewrites": [
     {
-      "source": "/en(.*)",
+      "source": "/en",
+      "destination": "/en"
+    },
+    {
+      "source": "/en/features",
+      "destination": "/en/features"
+    },
+    {
+      "source": "/(.*)",
       "destination": "/en"
     }
   ]
