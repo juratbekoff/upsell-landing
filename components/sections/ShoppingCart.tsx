@@ -1,8 +1,8 @@
 import Image from "next/image";
 import {getLocale, localeType} from "@/locales/config";
 
-import shoppingCart from "@/public/cart-3.png"
-import shoppingCartMini from "@/public/cart-mini.png"
+import shoppingCart from "../../public/cart-3.png"
+import shoppingCartMini from "../../public/cart-mini.png"
 
 import {dynamicBlurDataUrl} from "@/lib/utils";
 

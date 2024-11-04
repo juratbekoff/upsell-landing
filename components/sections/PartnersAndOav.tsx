@@ -46,7 +46,7 @@ const PartnersAndOav = async ({lang}: { lang: localeType }) => {
                                 alt={"logo"}
                                 width={0}
                                 height={0}
-                                className={"w-auto h-auto"}
+                                className={"w-auto h-auto max-h-20"}
                             />
                         ))
                     }
