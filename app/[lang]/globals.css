@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #000;
+    --foreground: #fff;
+}
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+}
+
+html {
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+}
+
+.auto-scroll {
+    position: relative;
+    white-space: nowrap;
+}
+
+.scroll-content {
+    display: inline-block;
+    animation: scroll-left 20s linear infinite;
+}
+
+.scroll-content img {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.scroll-content div {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@layer components {
+    .cards-width {
+        width: calc(100vw + 30%);
+    }
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+

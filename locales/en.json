@@ -1,0 +1,127 @@
+{
+  "Header": {
+    "logo": {
+      "url": "/logo.svg",
+      "title": "Llama Upsell"
+    },
+    "nav_item_1": {
+      "label": "All features",
+      "href": "/features"
+    },
+    "nav_item_2": {
+      "label": "View demo store",
+      "href": "https://www.llamaupsells.com"
+    },
+    "nav_item_3": {
+      "label": "Pricing",
+      "href": "#pricing"
+    },
+    "button": {
+      "label": "Install App"
+    }
+  },
+  "HeroSection": {
+    "title": "Get Larger Orders and Higher Conversion Rates",
+    "label": "Intelligent upsells, bundles, and custom carts for growing brands on Shopify",
+    "button_1": {
+      "label": "View demo store",
+      "url": "https://www.llamaupsells.com"
+    },
+    "button_2": {
+      "label": "Install for Free",
+      "url": "https://apps.shopify.com/upsell-prod"
+    }
+  },
+  "AOV": {
+    "title": "Boost Conversion Rates and AOV",
+    "description": "Offer the right product or upgrade, — at the right time — during checkout"
+  },
+  "FunnelOptimization": {
+    "description": "Optimize and test your funnels and campaigns to make the most of every sale"
+  },
+  "ShoppingCart": {
+    "title": "Create Unique Shopping Experiences with Llama Cart",
+    "description": "Customize the shoppers journey with a drag and drop cart builder, packed with all the features your shoppers expect and the revenue-driving features your store needs",
+    "button": {
+      "label": "Show all features"
+    },
+    "img": {
+      "url": "/cart-3.png",
+      "alt": "cart-3"
+    }
+  },
+  "Features": {
+    "title": "Powerful features for every store",
+    "description": "Take advantage of our always expanding suite of features designed with your growth in mind",
+    "cards": {
+      "a": {
+        "text": "Expand globally with our app, fully compatible with Shopify Markets for seamless regional management",
+        "image": {
+          "url": "/map.svg",
+          "alt": "Map"
+        }
+      },
+      "b": {
+        "text": "A/B testing. Optimize your offers, cart, and more to discover the upsells that work for your shoppers",
+        "image": {
+          "url": "/ab-testing.svg",
+          "alt": "A/B Testing"
+        }
+      },
+      "c": {
+        "text": "Built for Shopify: Verified for top performance, security, and reliability.",
+        "image": {
+          "url": "/diamond.svg",
+          "alt": "Diamond"
+        }
+      },
+      "d": {
+        "text": "Built with the latest Shopify technology to work flawlessly on your store",
+        "image": {
+          "url": "/technology.svg",
+          "alt": "Technology"
+        }
+      }
+    }
+  },
+  "Referral": {
+    "title": "Invite your friends to use Llama",
+    "description": "Upsells and receive 20% of their app fees for life. No limits or expiration!",
+    "steps": {
+      "first": "Invite your friend using the link",
+      "second": "Your invited referral signs up for a Llama Upsell subscription",
+      "third": "You earn 20% of their subscription fee"
+    }
+  },
+  "Reviews": {
+    "title": "Meet our Clients",
+    "descr": "Llama Upsells has helped hundreds of Shopify and Shopify Plus brands supercharge their profits"
+  },
+  "Pricing": {
+    "title": "Install for FREE & upgrade as you grow",
+    "description": "Install the app for free to learn how it works. Upgrade once your first campaign is live to access the full suite of features"
+  },
+  "Maximize": {
+    "title": "Maximize Your Shopify Store",
+    "description": "Drive more sales with upsells, cross-sells, and post-purchase campaigns. Llama Cart makes it easy!",
+    "button": {
+      "label": "Install for free",
+      "href": "https://apps.shopify.com/upsell-prod"
+    }
+  },
+  "Footer": {
+    "title": "Got a question?",
+    "description": "We'll get back to you in no time!",
+    "button": {
+      "label": "Send Email"
+    },
+    "copyright": "Copyright © 2024 Llama Commerce",
+    "short-description": "\"Short description for Llama App\"",
+    "email": "support@llamacommerce.io",
+    "social_networks": {
+      "linkedIn": "https://www.linkedin.com/company/llama-commerce",
+      "youtube": "#",
+      "instagram": "#"
+    }
+  }
+}
