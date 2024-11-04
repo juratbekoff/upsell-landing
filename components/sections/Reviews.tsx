@@ -115,7 +115,6 @@ const ReviewsSection = async ({lang}: { lang: localeType }) => {
                             logo={review.logo}
                         />
                     ))}
-
                 </div>
 
                 <div className='xl:w-1/5 lg:w-1/4 md:w-1/3 w-0 backdrop-blur-[3px] absolute h-full top-0 left-0'></div>

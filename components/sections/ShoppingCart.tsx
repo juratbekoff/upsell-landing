@@ -2,6 +2,9 @@ import Image from "next/image";
 import {getLocale, localeType} from "@/locales/config";
 
 import shoppingCart from "@/public/cart-3.png"
+import shoppingCartMini from "@/public/cart-mini.png"
+
+import {dynamicBlurDataUrl} from "@/lib/utils";
 
 const ShoppingCart = async ({lang}: { lang: localeType }) => {
     const t = await getLocale(lang, "ShoppingCart");
@@ -27,7 +30,9 @@ const ShoppingCart = async ({lang}: { lang: localeType }) => {
                     alt={t.img.alt}
                     width={593}
                     height={700}
-                    className={"max-lg:h-[593px] max-lg:w-[343px]"}
+                    className={"max-lg:h-[593px] max-lg:w-[343px] rounded-[10px]"}
+                    blurDataURL={await dynamicBlurDataUrl(shoppingCartMini)}
+                    placeholder={"blur"}
                 />
             </div>
         </div>

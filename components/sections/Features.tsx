@@ -13,7 +13,6 @@ import diamondImage from "../../public/diamond.svg"
 import diamondCardImage from "../../public/diamond-card.svg"
 import diamondCardImageMini from "../../public/diamond-card-mini.png"
 
-
 import technology from "@/public/technology.svg";
 import technologyMini from "@/public/technology-mini.png";
 

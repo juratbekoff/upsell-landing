@@ -17,7 +17,7 @@ const ReviewCard = ({name, review, logo}: ReviewProps) => {
                     </div>
                 </div>
 
-                <Image src={logo} alt="#" width={80} height={20}/>
+                <Image src={logo} alt="logo" width={80} height={20}/>
             </div>
 
             <div
